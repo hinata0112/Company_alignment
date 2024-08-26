@@ -1,0 +1,113 @@
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .hamburger{
+    width: 40px;
+    height: 25px;
+    position: relative;
+  }
+  .hamburger span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+  .hamburger span:first-of-type{/* ハンバーガーメニューの1番目の線 */
+    top: 0;
+  }
+  .hamburger span:nth-of-type(2){/* ハンバーガーメニューの2番目の線 */
+    top: 50%;
+  }
+  .hamburger span:last-of-type{/* ハンバーガーメニューの3番目の線 */
+    top: 100%;
+  }
+  .hamburger-x {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    margin-right: 10%;
+    /* margin-top: 2.5%; */
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+  .hamburger-x span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+  }
+  .slide-menu{
+    background-color: #f7f5f2;
+    position: fixed;
+    width: 25%;
+    left: 0;
+    transform: translateX(-100%);
+    transition: .5s;
+    border: 1px solid black; /*仮枠*/
+  }
+  .slide-menu .hori{
+    width: 80%;
+    height: 4px;
+    margin: 0 0 0 10%;
+    border-top: 1px solid #B8A36C;
+    border-bottom: 1px solid #B8A36C;
+  }
+  .slide-menu .menu{
+    color: #000;
+    line-height: 300%;
+    text-align: center;
+    background-color: #EFE0CB;
+    display: flex;
+  }
+  .slide-menu .toTop{
+    color: #000;
+    line-height: 300%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .slide-menu .nav{
+    color: #000;
+    line-height: 300%;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 5%;
+  }
+  .slide-menu .item{
+    color: #000;
+    line-height: 300%;
+    text-align: left;
+    padding-left: 20%;
+  }
+
+  .hamburger-x span:first-of-type{/* ハンバーガーメニューの1番目の線 */
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  .hamburger-x span:last-of-type{/* ハンバーガーメニューの3番目の線 */
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  .slide-menu.active{
+    transform: translateX(0); 
+  }
+  .ham-cover.active {
+    position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: rgba(3,3,3,.5);
+	display: block;
+  }
+
+  .text {
+    font-size: 18px;
+    font-family: 'sawarabi Mincho';
+  }
