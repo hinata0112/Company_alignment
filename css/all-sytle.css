@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     background-image: url(/img/背景.png);
     font-family: 'Sawarabi Mincho', sans-serif;
@@ -7,4 +12,28 @@ html {
 
 header {
     display: flex;
+    justify-content: space-between;
+}
+
+.header_2 {
+    display: flex;
+}
+
+.logo {
+    margin: auto;
+    width: 200px;
+}
+
+.logo img {
+    margin-top: 3%;
+    margin-right: 15px;
+}
+
+.logo_2 {
+    margin: auto;
+}
+
+.logo_2 p {
+    margin: auto;
+    margin-right: 50px;
 }

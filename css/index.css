@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.animation_back {
+    text-align: center;
+}
+
+.animation_back img {
+    width: 1225px;
+    height: 100%;
+}
+
+.main {
+    text-align: center;
+}
+
+.main p {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 50px;
+}
+
+.main_p {
+    display: flex;
+}
+
+.main1 {
+    position: relative;
+}
+
+.main img.imgup {
+    margin-top: 165px;
+    padding-left: 135px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
