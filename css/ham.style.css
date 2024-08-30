@@ -39,7 +39,6 @@
   height: 10px;
   position: relative;
   margin-right: 10%;
-  /* margin-top: 2.5%; */
   margin-top: 10px;
   margin-left: 10%;
 }
@@ -60,7 +59,6 @@
   transform: translateX(-100%);
   transition: .5s;
   border: 1px solid black;
-  /*仮枠*/
 }
 
 .slide-menu .hori {
