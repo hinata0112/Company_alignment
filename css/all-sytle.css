@@ -5,15 +5,29 @@
     margin: 0;
     font-family: "Shippori Mincho", serif;
     font-style: normal;
+    text-decoration: none;
 }
 
 /* 背景画像 */
 html {
     background-image: url(../img/背景.png);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+
     justify-content: space-between;
 }
 
@@ -37,5 +51,5 @@ header {
 
 .logo_2 p {
     margin: auto;
-    margin-right: 50px;
+    margin-right: 50px
 }
