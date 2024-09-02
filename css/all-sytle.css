@@ -12,7 +12,8 @@
 html {
     background-image: url(../img/背景.png);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +21,7 @@ html {
 
 header {
     display: flex;
+    justify-content: space-between;
 }
 
 footer {
@@ -27,7 +29,6 @@ footer {
     height: 700px;
     background-image: url(../img/footer.png);
     background-size: cover;
-
     justify-content: space-between;
 }
 

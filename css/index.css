@@ -1,6 +1,7 @@
-@charset "utf-8"; 
+@charset "utf-8";
+
 /* 画像js */
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,6 +12,7 @@ html{
 .animation_back img {
     width: 100%;
     height: 100%;
+    padding: 0 10px 10px 10px;
 }
 
 
@@ -95,8 +97,6 @@ hr {
 
 .title-border:after {
     margin-left: 3rem;
-    transform: translate(-50%, -50%);
-    color: #fff;
 }
 
 .button {
@@ -116,10 +116,9 @@ hr {
     margin-top: 1%;
 }
 
-.button span{
+.button span {
     color: black;
     width: 100%;
     font-size: 60px;
     margin: auto;
-
 }
