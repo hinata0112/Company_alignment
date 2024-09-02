@@ -1,7 +1,9 @@
-@charset "utf-8";
+@charset "utf-8"; 
+/* 画像js */
 html{
     scroll-behavior: smooth;
 }
+
 .animation_back {
     text-align: center;
 }
@@ -11,28 +13,88 @@ html{
     height: 100%;
 }
 
+
+/* hrのリセットcss */
+hr {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hr {
+    margin-top: 30px;
+    border-top: 9px double #B8A36C;
+}
+
+
+/**  main1  **/
 .main {
-    text-align: center;
-}
-
-.main p {
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    font-size: 50px;
-}
-
-.main_p {
     display: flex;
 }
 
-.main1 {
-    position: relative;
+.main1_div img {
+    margin-top: 100px;
+    margin-left: 140px;
+    position: absolute;
 }
 
-.main img.imgup {
-    margin-top: 165px;
-    padding-left: 135px;
+.main1_p {
+    margin-top: 330px;
+    margin-left: 150px;
+}
+
+.main1_p p {
+    font-weight: 600;
+}
+
+.main1_a {
+    margin-top: 50px;
+}
+
+.main1_img {
+    margin-left: 80px;
+}
+
+.span_tag {
+    color: #63173B;
+}
+
+/* main2 */
+
+.main2 img {
+    margin-top: 110px;
     position: absolute;
+}
+
+/* main2のyoutube */
+.youtube {
+    position: relative;
+    padding-top: 140px;
+    text-align: center;
+}
+
+/* titleの線 */
+.title-border {
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.title-border:before,
+.title-border:after {
+    content: "";
+    flex-grow: 1;
+    border-top: 9px double #B8A36C;
+}
+
+.title-border:before {
+    margin-right: 3rem;
+}
+
+.title-border:after {
+    margin-left: 3rem;
     transform: translate(-50%, -50%);
     color: #fff;
 }
@@ -59,4 +121,5 @@ html{
     width: 100%;
     font-size: 60px;
     margin: auto;
+
 }

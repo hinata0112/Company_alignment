@@ -3,12 +3,14 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Shippori Mincho", serif;
+    font-style: normal;
     text-decoration: none;
 }
 
+/* 背景画像 */
 html {
-    background-image: url(/img/背景.png);
-    font-family: 'Sawarabi Mincho', sans-serif;
+    background-image: url(../img/背景.png);
 }
 *{
     margin: 0;
