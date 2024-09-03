@@ -1,0 +1,33 @@
+/* メインコンテンツ1つ目 */
+
+.main1 {
+    display: flex;
+    padding: 3% 10%;
+}
+
+.main1 .left {
+    margin-top: 2%;
+    width: 65%;
+    background-image: url("../img/glass/ガラス制作風景.png");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: left;
+    background-size: 85% auto;
+}
+
+.main1 .left p {
+    margin-top: 35%;
+    font-weight: bold;
+}
+
+.text-blue { color: deepskyblue; }
+
+
+
+.main1 .right {
+    width: 35%;
+}
+
+.main1 img {
+    margin-left: 10%;
+}
