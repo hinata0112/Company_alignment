@@ -1,18 +1,27 @@
 @charset "utf-8";
 
-/* 画像js */
-html {
-    scroll-behavior: smooth;
-}
-
+/* animation */
 .animation_back {
-    text-align: center;
+    position: relative;
 }
 
-.animation_back img {
-    width: 100%;
-    height: 100%;
-    padding: 0 10px 10px 10px;
+.animation_back_div {
+    text-align: right;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    padding-right: 15px;
+    border-right: 2px solid white;
+}
+
+.animation_back p {
+    padding: 10px;
+}
+
+.animation_back_p1 {
+    font-size: 15px;
 }
 
 
@@ -103,11 +112,10 @@ hr {
 
 .main3 {
     position: relative;
+    margin-bottom: 200px;
 }
 
 .main3_div {
-    z-index: 1;
-    position: relative;
     margin: 30px;
     padding: 50px;
     height: 500px;
@@ -115,9 +123,27 @@ hr {
     border: 1px solid #B8A36C;
 }
 
+.main3_turutur {
+    z-index: 1;
+}
+
 .main3_img {
     justify-content: space-around;
     display: flex;
+}
+
+.zoom-box {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.c-bnr.zoom {
+    display: block;
+    transition-duration: .5s;
+}
+
+.c-bnr.zoom:hover {
+    transform: scale(1.2);
 }
 
 .main3_table {
@@ -135,6 +161,7 @@ hr {
     position: absolute;
     right: 0;
     top: 280px;
+    z-index: -1;
 }
 
 /* button */
@@ -214,4 +241,13 @@ hr {
 .notice_table td {
     padding: 18px;
     text-decoration: underline;
+}
+
+/* main4 */
+.main4 {
+    text-align: center;
+}
+
+.main4 img {
+    margin-top: 30px;
 }
