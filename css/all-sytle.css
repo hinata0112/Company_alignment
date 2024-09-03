@@ -154,4 +154,18 @@ hr {
 .notice_table td {
     padding: 18px;
     text-decoration: underline;
+
+/* 画像js */
+html {
+    scroll-behavior: smooth;
+}
+
+.animation_back {
+    text-align: center;
+}
+
+.animation_back img {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 10px 10px;
 }
